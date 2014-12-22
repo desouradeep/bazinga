@@ -1,0 +1,13 @@
+{
+    "name": "Bazinga",
+    "main": "index.html",
+    "author": "Souradeep De",
+    "email": "souradeep.2011@gmail.com",
+    "window": {
+        //"toolbar": false,
+        "width": 1000,
+        "height": 600,
+        "min_width": 500,
+        "min_height": 300
+   }
+}
