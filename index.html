@@ -4,7 +4,20 @@
         <title>Bazinga</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Title</td>
+                    <td>Year</td>
+                    <td>Rating</td>
+                    <td>Genre</td>
+                    <td>Duration</td>
+                </tr>
+                <tbody id="movies-tbody"></tbody>
+            </thead>
+        </table>
+
         <script type="text/javascript" src="js/movie_finder.js"></script>
         <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
         <script type="text/javascript">
@@ -12,6 +25,8 @@
             var loc = "/media/LIBRARIES/Movies";
             var ext_loc = "/run/media/de/SDE/MOVIES/";
             var locations = [
+                "/media/LIBRARIES/Movies",
+                "/run/media/de/SDE/MOVIES/"
             ];
 
             prepare_movies(locations);
