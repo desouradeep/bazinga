@@ -94,7 +94,6 @@ var parse = function(filename) {
                 console.log(err);
             }
 
-            debugger;
             if(movie_json.Response == "True") {
                 var movies_tbody = $("#movies-tbody");
                 var table_row = "\
